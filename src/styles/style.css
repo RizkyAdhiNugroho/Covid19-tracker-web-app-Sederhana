@@ -1,0 +1,74 @@
+/* Load Font from Gfont API*/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+/* Format General */
+* {
+      box-sizing: border-box;
+      font-family: 'Readex Pro';
+      padding: 0;
+      margin: 0
+}
+
+/* app-bar */
+app-bar {
+    display: flex;
+    font-family: 'Readex Pro';
+    width: 80%;
+    background-color: rgb(167, 44, 44);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* header */
+header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 8px;
+      background-color: rgb(167, 44, 44);    
+}
+
+/* MAIN BAR */
+main {
+      max-width: 1000px;
+      margin: 0 auto;
+}
+
+h1 {
+      text-align: center;
+      font-size: 40px;
+      margin: 0 0 30px;
+}
+
+.stat-title {
+      margin: 10%;
+}
+
+/* FOOTER */
+footer {
+    font-family: 'Reade Pro';
+    background-color: rgb(167, 44, 44);
+    text-align: center;
+    padding: 8px;
+    color: #ffffff;
+}
+
+/* to the top button */
+a.back-to-top {
+      position: fixed;
+      text-align: center;
+      bottom: 3vh;
+      right: 3vh;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 100%;
+      padding-top: 8px;
+      color: #E7E7DE !important;
+      background-color: black;
+      font-size: 2em;
+  }
+  a.back-to-top:hover {
+      color: #E7E7DE !important;
+      background-color: rgb(167, 44, 44);
+  }
